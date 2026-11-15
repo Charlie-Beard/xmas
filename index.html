@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Christmas Holidays 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <h1>
+      <svg class="holly" viewBox="0 0 40 28" width="40" height="28" aria-hidden="true" focusable="false">
+        <path d="M20 14c-3-6-9-9-16-7 1 7 8 11 16 7z" fill="#1f4d3a"/>
+        <path d="M20 14c3-6 9-9 16-7-1 7-8 11-16 7z" fill="#2c6a50"/>
+        <circle cx="17" cy="17" r="3.2" fill="#9b2335"/>
+        <circle cx="23" cy="17" r="3.2" fill="#9b2335"/>
+        <circle cx="20" cy="21" r="3.2" fill="#9b2335"/>
+      </svg>
+      <span id="title">Christmas Holidays 2026</span>
+    </h1>
+    <p class="range" id="range"></p>
+    <p class="back" id="back"></p>
+    <p class="sync" id="sync"></p>
+    <div class="notes" id="notes" role="note" aria-label="Notes"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="todo" id="todo" aria-labelledby="todo-h" hidden>
+    <h2 id="todo-h">Things to sort</h2>
+    <ul id="todo-list"></ul>
+  </section>
+
+  <ul class="legend" aria-label="Legend">
+    <li><span class="sw sw-family"></span>Family plan</li>
+    <li><span class="sw sw-away"></span>Away</li>
+    <li><span class="sw sw-flag"></span>Needs action</li>
+    <li><span class="sw sw-routine"></span>Routine diary entries</li>
+  </ul>
+
+  <div id="grid" class="grid" role="table" aria-label="Day by day plan for the Christmas holidays"></div>
+</main>
+
+<footer class="wrap site-footer">
+  <p>To update: change the event in Google Calendar, then refresh <code>data.js</code> from the calendar. This page is a read-only overview and does not edit the calendar.</p>
+</footer>
+
+<noscript><p class="wrap">This page needs JavaScript to show the plan.</p></noscript>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

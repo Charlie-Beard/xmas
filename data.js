@@ -47,8 +47,8 @@ window.XMAS = {
         {
           title: "Family swim – Park House Spa (private hire)",
           who: "Charlie, Debbie, Jasper & Mina",
-          start: "10:30", end: "11:30",
-          detail: "Leave home 10:10, back around 12:30. Booked and paid. Honey End Lane, Reading.",
+          start: "10:10", end: "12:30",
+          detail: "Leave 10:10 · pool 10:30–11:30 (booked and paid) · home around 12:30. Honey End Lane, Reading.",
           kind: "family", flag: null,
           slots: ["morning", "lunch"],
           link: "https://www.google.com/calendar/event?eid=cDhtdHNldGFldHBnaW92ajdyNWIwbTRudGsgY2hhcmxlc2pvaG5iZWFyZEBt&ctz=Europe/London"
